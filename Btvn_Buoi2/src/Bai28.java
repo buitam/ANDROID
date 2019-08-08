@@ -20,7 +20,7 @@ public class Bai28 {
 
     public static void main(String[] args) {
         Bai28 b28 = new Bai28();
-        b28.nhap(4);
+        b28.nhap(10);
         b28.in();
     }
 }
