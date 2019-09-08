@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f440938-64c0-4d90-a00b-cbfa29f774d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Buoi4_Btvnb4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5/src/com/t3h/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/mammals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/mammals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/mammals/Mammals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/quanli/ThongTinNguoiDung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/quanli/Thu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi4_Btvnb4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi4_Btvnb4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi4_Btvnb4/out/production/Buoi4_Btvnb4/com/t3h1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi4_Btvnb4/out/production/Buoi4_Btvnb4/com/t3h1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Buoi7_String/com/t3h/immutable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Buoi7_String/com/t3h/immutable/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/immutable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/immutable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_immutable/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/Buoi8_immutable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/exceptions/FixMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/exceptions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/file/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/file/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/mutable/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/exceptions/FixMe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/exceptions/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/file/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/file/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/mutable/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/immutable/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="54" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="54" selection-end-column="32" />
+            <state relative-caret-position="305">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -72,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="724" />
     <option name="height" value="735" />
@@ -83,7 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,11 +115,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -188,17 +198,20 @@
       <workItem from="1567663641904" duration="591000" />
       <workItem from="1567677578965" duration="715000" />
       <workItem from="1567682265167" duration="22000" />
+      <workItem from="1567742330398" duration="627000" />
+      <workItem from="1567759645377" duration="4681000" />
+      <workItem from="1567819215400" duration="486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25554000" />
+    <option name="totallyTimeSpent" value="31348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="724" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1626506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16414523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -207,7 +220,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30932897" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3089701" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,8 +271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/immutable/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="54" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="305">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
         </state>
       </provider>
     </entry>

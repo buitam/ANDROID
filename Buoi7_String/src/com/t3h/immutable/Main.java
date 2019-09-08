@@ -68,22 +68,23 @@ public class Main {
         System.out.println(contains);
 
         String s1 = "hello";
-        String s2 = "hello";
+        String s2 = "Hello";
 
         boolean equals = s1.equals(s2);
-        System.out.println("Kiểm tra"+equals);
+        System.out.println("Kiểm tra phân biệt"+equals);
 
         // không phân biệt hoa thường
         boolean equalsIgnoreCase = s1.equalsIgnoreCase(s2);
-        System.out.println(equalsIgnoreCase);
+        System.out.println("Kiểm tra phân biệt"+equalsIgnoreCase);
         //compare phân biệt hoa thường
         //compareToIgnoreCase ko phân biệt
         int compare = s1.compareToIgnoreCase(s2);
-        System.out.println(compare);
+        int compare1 = s1.compareTo(s2);
+        System.out.println("So sánh ko phân biệt"+compare);
+        System.out.println("So sánh phân biệt"+compare1);
 
         //trả về giá trị bảng mã ascii ở vị trí index
         int ascii = s1.codePointAt(0);
         System.out.println(ascii);
-
     }
 }

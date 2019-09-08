@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8b6009-c377-4c4b-b332-b7a4437e50ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Buoi4_Btvnb4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5/src/com/t3h/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/mammals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/mammals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/mammals/Mammals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/quanli/ThongTinNguoiDung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Buoi5_OOP_Btvn/src/com/t3h/quanli/Thu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi4_Btvnb4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi4_Btvnb4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi4_Btvnb4/out/production/Buoi4_Btvnb4/com/t3h1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi4_Btvnb4/out/production/Buoi4_Btvnb4/com/t3h1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi6_Arrange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi6_Arrange/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7_String/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7_String/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7_String/out/production/Buoi7_String/com/t3h/immutable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7_String/out/production/Buoi7_String/com/t3h/immutable/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7_String/src/com/t3h/immutable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7_String/src/com/t3h/immutable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_immutable/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/Buoi8_immutable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/exceptions/FixMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/exceptions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/file/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/file/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/out/production/Buoi8_immutable/com/t3h/mutable/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/exceptions/FixMe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/exceptions/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/file/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/file/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_immutable/src/com/t3h/mutable/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/bai1/Bai1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="373">
               <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/bai4/QuanLy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -92,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/bai3/ArrayUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="425">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/bai3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -154,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,10 +215,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -289,16 +300,18 @@
       <workItem from="1566887301016" duration="10625000" />
       <workItem from="1566904423337" duration="1560000" />
       <workItem from="1566906107864" duration="899000" />
+      <workItem from="1567828206047" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16813000" />
+    <option name="totallyTimeSpent" value="16849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,12 +346,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai2/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai1/Bai1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="373">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
-            <element signature="e#340#341#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -350,7 +363,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai4/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai2/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai3/ArrayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -367,37 +400,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/bai4/QuanLy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai3/ArrayUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/bai1/Bai1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
