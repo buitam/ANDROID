@@ -36,7 +36,6 @@ public class Manager {
         return 0;
     }
     public void managerChangePass(String userName, String Oldpass, String newPass){
-        System.out.println("Thay đổi mật khẩu: ");
         for (int i = 0; i <userArrayList.size() ; i++) {
             if(userArrayList.get(i).getUserName().equals(userName) && userArrayList.get(i).getPassword().equals(Oldpass)){
                 Oldpass = newPass ;
