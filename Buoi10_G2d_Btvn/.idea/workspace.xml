@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af6be291-f9df-474e-9ca2-50107932ced9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi11_GameTank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi11_GameTank/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi6_Arrange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi6_Arrange/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi7_String/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7_String/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/gui/ZombiePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/gui/ZombiePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/GameManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/GameManage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/LawnMower.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/LawnMower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/Score.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/SunFlower.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/SunFlower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/Zombies.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/out/production/PlantsVsZombiesGame/com/t3h/model/Zombies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/gui/ZombiePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/gui/ZombiePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/GameManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/GameManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/LawnMower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/LawnMower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Plants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Score.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/SunFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/SunFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Zombies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlantsVsZombiesGame/src/com/t3h/model/Zombies.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/bai2/Layout1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="517">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -232,8 +214,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,17 +291,17 @@
       <workItem from="1568287290530" duration="675000" />
       <workItem from="1569296010086" duration="1894000" />
       <workItem from="1569299117818" duration="1375000" />
+      <workItem from="1569307474539" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30468000" />
+    <option name="totallyTimeSpent" value="30626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.096066564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/bai2/Layout1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="517">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
