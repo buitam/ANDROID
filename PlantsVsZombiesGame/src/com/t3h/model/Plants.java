@@ -15,7 +15,7 @@ public class Plants extends PlantsVsZombies {
 
     public void fire(ArrayList<Bullet> arr){
         long T = System.currentTimeMillis();
-        if(T-t < 500 ) {
+        if(T-t < 5000 ) {
             return;
         }
         t = T;
@@ -25,4 +25,5 @@ public class Plants extends PlantsVsZombies {
         Bullet b = new Bullet(xB, yB);
         arr.add(b);
     }
+
 }

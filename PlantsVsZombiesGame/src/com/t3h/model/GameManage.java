@@ -10,6 +10,8 @@ import java.util.Random;
 public class GameManage {
     public int housePlace = ZombieFrame.W_FRAME/7*2;
     private Map map = new Map();
+    private Score score = new Score(40,ZombieFrame.H_FRAME/9*8+20);
+    private Plants plants;
     private ArrayList<LawnMower> arrLawnMowers;
     private ArrayList<Plants> arrPlants;
     private ArrayList<Zombies> arrZombies;
@@ -46,9 +48,8 @@ public class GameManage {
             y = 100*(i+1)-50;
             Plants plant = new Plants(x,y,0);
             arrPlants.add(plant);
-            arrPlants.get(i).fire(arrBullet);
+            plant.fire(arrBullet);
         }
-        moveBullet();
     }
 
     public void generateSunFlower(){
@@ -80,6 +81,7 @@ public class GameManage {
 
     public void draw(Graphics2D g2d){
         map.draw(g2d);
+        score.draw(g2d);
         for (Zombies z: arrZombies
              ) {
             z.draw(g2d);
@@ -111,6 +113,10 @@ public class GameManage {
         long T = System.currentTimeMillis();
         for (int i = arrZombies.size() - 1; i >= 0; i--) {
             arrZombies.get(i).move();
+            boolean die = arrZombies.get(i).checkDie(arrBullet);
+            if (die) {
+                arrZombies.remove(i);
+            }
         }
         if(T-t < 5000) {
             return;
@@ -130,11 +136,19 @@ public class GameManage {
         if(T-time < 14000) {
             return;
         }
+
         time = T;
         generateSunFlower();
     }
+    public void AIBullet(){
+        for (int i = arrPlants.size() - 1; i >= 0; i--) {
+            arrPlants.get(i).fire(arrBullet);
+        }
+        moveBullet();
 
-    private void moveBullet(){
+    }
+
+    public void moveBullet(){
         for (int i = arrBullet.size()-1; i >=0 ; i--) {
             boolean move = arrBullet.get(i).move();
             if(move == false){

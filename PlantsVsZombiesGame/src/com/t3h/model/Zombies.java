@@ -8,7 +8,6 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class Zombies extends PlantsVsZombies{
-    private int speed = 1;
 
     public Zombies(int x, int y) {
         super(x, y, LIVE);
@@ -18,7 +17,7 @@ public class Zombies extends PlantsVsZombies{
     }
 
     public void move(){
-        x -= speed;
+        x -= LawnMower.speed;
     }
 
     public Rectangle getRect(){

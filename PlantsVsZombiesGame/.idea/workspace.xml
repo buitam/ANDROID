@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a57c71e-439c-44a0-ab6c-a45b41c13d33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Buoi10_G2d_Btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi10_G2d_Btvn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi11_GameTank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi11_GameTank/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Buoi6_Arrange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi6_Arrange/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi7_btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7_btvn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi8_btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_btvn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi8_btvn/out/production/Buoi8_btvn/com/t3h/bai2QuanLyThongTinNguoiDung/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_btvn/out/production/Buoi8_btvn/com/t3h/bai2QuanLyThongTinNguoiDung/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi8_btvn/out/production/Buoi8_btvn/com/t3h/bai2QuanLyThongTinNguoiDung/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_btvn/out/production/Buoi8_btvn/com/t3h/bai2QuanLyThongTinNguoiDung/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi8_btvn/src/com/t3h/bai2QuanLyThongTinNguoiDung/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_btvn/src/com/t3h/bai2QuanLyThongTinNguoiDung/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi8_btvn/src/com/t3h/bai2QuanLyThongTinNguoiDung/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_btvn/src/com/t3h/bai2QuanLyThongTinNguoiDung/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7_String/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7_String/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi8_String_btvn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/gui/ZombiePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/gui/ZombiePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/model/GameManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/model/GameManage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/model/LawnMower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/model/LawnMower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/model/Zombies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlantsVsZombiesGame/com/t3h/model/Zombies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/gui/ZombiePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/gui/ZombiePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/GameManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/GameManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/LawnMower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/LawnMower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/Plants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/SunFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/SunFlower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/t3h/model/Zombies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/t3h/model/Zombies.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,97 +34,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/gui/ZombiePanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/gui/ZombieFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/ImageLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/GameManage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/LawnMower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SoundManage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Bullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="101">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SunFlower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Zombies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="209">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +73,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SoundManage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Plants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="254">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/PlantsVsZombies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/GameManage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="152" column="43" selection-start-line="152" selection-start-column="43" selection-end-line="152" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/ImageLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/t3h/gui/ZombiePanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,6 +159,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arrBullet</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -163,14 +175,15 @@
         <option value="$PROJECT_DIR$/src/com/t3h/model/PlantsVsZombies.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/gui/ZombieFrame.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/model/SoundManage.java" />
-        <option value="$PROJECT_DIR$/src/com/t3h/model/SunFlower.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/model/Map.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/model/LawnMower.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/model/Zombies.java" />
+        <option value="$PROJECT_DIR$/src/com/t3h/model/Score.java" />
+        <option value="$PROJECT_DIR$/src/com/t3h/model/SunFlower.java" />
+        <option value="$PROJECT_DIR$/src/com/t3h/model/GameManage.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/gui/ZombiePanel.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/model/Bullet.java" />
         <option value="$PROJECT_DIR$/src/com/t3h/model/Plants.java" />
-        <option value="$PROJECT_DIR$/src/com/t3h/model/GameManage.java" />
       </list>
     </option>
   </component>
@@ -181,8 +194,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -195,6 +208,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,18 +221,51 @@
               <item name="PlantsVsZombiesGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PlantsVsZombiesGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlantsVsZombiesGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="t3h" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlantsVsZombiesGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlantsVsZombiesGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="t3h" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlantsVsZombiesGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlantsVsZombiesGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="t3h" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlantsVsZombiesGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlantsVsZombiesGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="t3h" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlantsVsZombiesGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlantsVsZombiesGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ThBac/Java/Tank90" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -270,17 +317,24 @@
       <workItem from="1568642023255" duration="15558000" />
       <workItem from="1568661410348" duration="32000" />
       <workItem from="1568683772231" duration="14040000" />
+      <workItem from="1568705462243" duration="3913000" />
+      <workItem from="1568718088655" duration="625000" />
+      <workItem from="1568795954696" duration="5000" />
+      <workItem from="1568890909754" duration="1633000" />
+      <workItem from="1569031648415" duration="19000" />
+      <workItem from="1569138441896" duration="1029000" />
+      <workItem from="1569293208034" duration="9806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38562000" />
+    <option name="totallyTimeSpent" value="55592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,7 +343,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2667758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30605564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,13 +369,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2975">
@@ -346,47 +393,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/PlantsVsZombies.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/LawnMower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SunFlower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SoundManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/gui/ZombieFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -400,10 +410,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/Counter.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/gui/ZombieFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/gui/ZombiePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="153">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/PlantsVsZombies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/GameManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="152" column="43" selection-start-line="152" selection-start-column="43" selection-end-line="152" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -412,62 +472,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Bullet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="101">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Plants.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SunFlower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="492">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Zombies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="209">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/GameManage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/SoundManage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="209">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/LawnMower.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/ImageLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/com/t3h/model/Plants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="254">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,12 +1,15 @@
 package com.t3h.gui;
 
 import com.t3h.model.GameManage;
+import com.t3h.model.SunFlower;
 import com.t3h.model.Zombies;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
-public class ZombiePanel extends JPanel implements Runnable {
+public class ZombiePanel extends JPanel implements Runnable{
     private GameManage gameManage = new GameManage();
     public ZombiePanel() {
         setBackground(Color.BLACK);
@@ -27,6 +30,8 @@ public class ZombiePanel extends JPanel implements Runnable {
         while (true) {
             gameManage.AIZombies();
             gameManage.AIFlowers();
+            gameManage.moveBullet();
+            gameManage.AIBullet();
             boolean isDie = gameManage.gameOver();
             if(isDie){
                 int result = JOptionPane.showConfirmDialog(null,

@@ -11,8 +11,8 @@ public class Bullet {
     private Image image = ImageLoader.getImage("Pea.png",getClass());
 
     public Bullet(int x, int y) {
-        this.x = x - image.getWidth(null)/2;
-        this.y = y - image.getHeight(null)/2;
+        this.x = x + 15;
+        this.y = y - image.getHeight(null)/2-10;
     }
     public void draw(Graphics2D g2d){
         g2d.drawImage(image,x,y,null);

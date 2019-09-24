@@ -7,7 +7,7 @@ import java.awt.*;
 public class LawnMower {
     public int x;
     public int y;
-    public int speed = 1;
+    public static int speed = 1;
     Image image;
 
     public LawnMower(int x, int y) {
