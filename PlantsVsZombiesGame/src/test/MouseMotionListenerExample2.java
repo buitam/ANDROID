@@ -29,10 +29,12 @@ public class MouseMotionListenerExample2 extends Frame
         Graphics g = getGraphics();
         if(e.getX()>300){
         g.clearRect(0,0,400, 400);
-        g.drawImage(counter,e.getX(), e.getY(),null);}
+        g.drawImage(counter,e.getX(), e.getY(),null);
+        g.drawString("Hello", e.getX(), e.getY());}
         else {
         g.clearRect(0,0,400, 400);
-        g.drawImage(shovel,e.getX(), e.getY(),null);}
+        g.drawImage(shovel,e.getX(), e.getY(),null);
+        }
     }
 
     public void mouseMoved(MouseEvent e) {

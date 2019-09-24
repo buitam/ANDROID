@@ -42,10 +42,10 @@ public class Map extends JPanel implements MouseMotionListener {
         g.clearRect(0,0,ZombieFrame.W_FRAME, ZombieFrame.H_FRAME);
         g.drawImage(shovel,e.getX(), e.getY(),null);
         for (int i = 0; i < plants.length; i++) {
-            if(e.getX()>500){
+            if(e.getY()<shovel.getHeight(null) && e.getX()>ZombieFrame.W_FRAME-shovel.getWidth(null)){
                 g.clearRect(0,0,400, 400);
                 g.drawImage(shovel,e.getX(), e.getY(),null);
-            } else if(e.getY()<ZombieFrame.H_FRAME/6*(i+1)-10*(i+1)){
+            } else if(e.getY()<ZombieFrame.H_FRAME/6*(i+1)-10*(i+1) && e.getX()< plants[i].getWidth(null)){
                 g.clearRect(0,0,400, 400);
                 g.drawImage(plants[i],e.getX(), e.getY(),null);}
             }

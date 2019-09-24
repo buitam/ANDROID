@@ -145,7 +145,6 @@ public class GameManage {
             arrPlants.get(i).fire(arrBullet);
         }
         moveBullet();
-
     }
 
     public void moveBullet(){
@@ -160,6 +159,7 @@ public class GameManage {
     public boolean gameOver(){
         for (int i = 0; i < arrZombies.size(); i++) {
             if(arrZombies.get(i).x <= ZombieFrame.W_FRAME/6){
+                moveLawn();
                 return true;
             }
         }
