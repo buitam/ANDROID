@@ -30,7 +30,9 @@ public class Zombies extends PlantsVsZombies{
             Rectangle rect = getRect().intersection(arr.get(i).getRect());
             //intersection là kiểm tra giao nhau giữa 2 hcn, giá trị trả về là 1 rectangle
             if(rect.isEmpty() == false){
-                arr.remove(i);
+                health-=50;
+                if(health<0){
+                arr.remove(i);}
                 return true;
             }
         }

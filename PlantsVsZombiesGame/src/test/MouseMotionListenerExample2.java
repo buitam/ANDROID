@@ -8,6 +8,7 @@ import java.awt.event.MouseMotionListener;
 public class MouseMotionListenerExample2 extends Frame
         implements MouseMotionListener {
     Image counter = ImageLoader.getImage("Counter.png",getClass());
+    Image shovel = ImageLoader.getImage("shovel.png",getClass());
     Label label;
     Color color = Color.BLUE;
 
@@ -26,7 +27,12 @@ public class MouseMotionListenerExample2 extends Frame
     public void mouseDragged(MouseEvent e) {
         label.setText("X=" + e.getX() + ", Y=" + e.getY());
         Graphics g = getGraphics();
-        g.drawImage(counter,e.getX(), e.getY(),null);
+        if(e.getX()>300){
+        g.clearRect(0,0,400, 400);
+        g.drawImage(counter,e.getX(), e.getY(),null);}
+        else {
+        g.clearRect(0,0,400, 400);
+        g.drawImage(shovel,e.getX(), e.getY(),null);}
     }
 
     public void mouseMoved(MouseEvent e) {

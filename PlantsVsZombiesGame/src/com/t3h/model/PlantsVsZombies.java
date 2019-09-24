@@ -3,6 +3,7 @@ package com.t3h.model;
 import java.awt.*;
 
 public class PlantsVsZombies {
+    public static int health = 100;
     public static final int LIVE = 0;
     public static final int DIE = 1;
 
