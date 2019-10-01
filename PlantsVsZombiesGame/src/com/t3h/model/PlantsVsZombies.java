@@ -25,7 +25,7 @@ public class PlantsVsZombies {
 
     public void fire(ArrayList<Bullet> arr, int status){
         long T = System.currentTimeMillis();
-        if(T-t < 5000 ) {
+        if(T-t < 4000 ) {
             return;
         }
         t = T;
@@ -47,6 +47,16 @@ public class PlantsVsZombies {
         return rect;
     }
 
+    public void checkDiePlant(ArrayList<Zombies> arr){
+        for (int i = 0; i < arr.size() ; i++) {
+            Rectangle rect = getRect().intersection(arr.get(i).getRect());
+            //intersection là kiểm tra giao nhau giữa 2 hcn, giá trị trả về là 1 rectangle
+            if(!rect.isEmpty()){
+                PlantsVsZombies.health -= 30;
+                arr.remove(i);
+            }
+        }
+    }
     public void draw(Graphics2D g2d){
         g2d.drawImage(images[status],x,y,null);
     }

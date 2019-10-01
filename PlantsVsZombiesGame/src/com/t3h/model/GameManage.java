@@ -24,6 +24,7 @@ public class GameManage  {
     private Random rd = new Random();
 
     public void initGame(){
+        Score.score = 500;
         SoundManage.play("background.wav");
         arrZombies = new ArrayList<>();
         arrSunFlowers = new ArrayList<>();

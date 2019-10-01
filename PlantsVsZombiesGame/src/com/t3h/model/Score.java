@@ -5,7 +5,7 @@ import java.awt.*;
 public class Score {
     private int x;
     private int y;
-    public static int score = 50;
+    public static int score = 1000;
 
     public Score(int x, int y) {
         this.x = x;

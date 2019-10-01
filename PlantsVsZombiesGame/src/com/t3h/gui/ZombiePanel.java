@@ -64,24 +64,26 @@ public class ZombiePanel extends JPanel implements Runnable, MouseListener, Mous
                 gameManage.arrSunFlowers.remove(i);
             }
         }
-        if(activeGreenPlant==true){
+        if(activeGreenPlant==true &&  Score.score >= 100){
 
             Plants plants = new Plants(e.getX(),e.getY(),0);
             gameManage.arrPlants.add(plants);
+            Score.score -= 100;
             activeGreenPlant = false;
 
         }
 
         Rectangle rectangle = gameManage.arrPlants.get(0).getRect()
                 .intersection(getRect(e));
-        if(!rectangle.isEmpty()){
+        if(rectangle.isEmpty() == false){
             activeGreenPlant = true;
         }
 
 
-        if(activePotatoes==true){
+        if(activePotatoes==true &&  Score.score >= 25){
             Potatoes potatoes = new Potatoes(e.getX(),e.getY(),0);
             gameManage.arrPotaoes.add(potatoes);
+            Score.score -= 25;
             activePotatoes = false;
 
         }
@@ -93,9 +95,12 @@ public class ZombiePanel extends JPanel implements Runnable, MouseListener, Mous
         }
 
 
-        if(activeSunTree==true){
+        if(activeSunTree==true && Score.score >= 50){
             SunTree sunTree = new SunTree(e.getX(),e.getY(),0);
             gameManage.arrSunTree.add(sunTree);
+            Score.score -= 50;
+            SunFlower sunFlower = new SunFlower(e.getX()+30,e.getY());
+            gameManage.arrSunFlowers.add(sunFlower);
             activeSunTree = false;
 
         }
@@ -106,9 +111,10 @@ public class ZombiePanel extends JPanel implements Runnable, MouseListener, Mous
             activeSunTree = true;
         }
 
-        if(activeRedTree==true){
+        if(activeRedTree==true && Score.score >= 125){
             RedTree redTree = new RedTree(e.getX(),e.getY(),0);
             gameManage.arrRedTree.add(redTree);
+            Score.score -= 125;
             activeRedTree = false;
 
         }
