@@ -13,13 +13,16 @@ public class GameManage  {
     private Map map = new Map();
     private Score score = new Score(40,ZombieFrame.H_FRAME/9*8+20);
     private Score scorePlay = new Score(40,90);
-    private Plants plants;
     private ArrayList<LawnMower> arrLawnMowers;
-    private ArrayList<Plants> arrPlants;
+    public ArrayList<Plants> arrPlants;
+    public ArrayList<Potatoes> arrPotaoes;
+    public ArrayList<RedTree> arrRedTree;
+    public ArrayList<SunTree> arrSunTree;
     private ArrayList<Zombies> arrZombies;
     public ArrayList<SunFlower> arrSunFlowers;
     private ArrayList<Bullet> arrBullet;
     private Random rd = new Random();
+
     public void initGame(){
         SoundManage.play("background.wav");
         arrZombies = new ArrayList<>();
@@ -27,6 +30,9 @@ public class GameManage  {
         arrLawnMowers = new ArrayList<>();
         arrBullet = new ArrayList<>();
         arrPlants = new ArrayList<>();
+        arrPotaoes = new ArrayList<>();
+        arrRedTree = new ArrayList<>();
+        arrSunTree = new ArrayList<>();
         generateZombie();
         generateLawnMower();
         generatePlants();
@@ -41,17 +47,16 @@ public class GameManage  {
         Zombies zombies = new Zombies(ZombieFrame.W_FRAME + 50,placeRd);
         arrZombies.add(zombies);
     }
-
     public void generatePlants(){
-        int x;
-        int y;
-        for (int i = 0; i < 5; i++) {
-            x = ZombieFrame.W_FRAME/4 + 20 + (-5*i);
-            y = 100*(i+1)-50;
-            Plants plant = new Plants(x,y,0);
-            arrPlants.add(plant);
-            plant.fire(arrBullet);
-        }
+        Plants plants = new Plants(0,ZombieFrame.H_FRAME/6-10,2);
+        arrPlants.add(plants);
+        Potatoes potatoes = new Potatoes(0,ZombieFrame.H_FRAME/6*2-10*2,2);
+        arrPotaoes.add(potatoes);
+        RedTree redTree = new RedTree(0,ZombieFrame.H_FRAME/6*3-10*3,2);
+        arrRedTree.add(redTree);
+        SunTree sunTree = new SunTree(0,ZombieFrame.H_FRAME/6*4-10*4,2);
+        arrSunTree.add(sunTree);
+
     }
 
     public void generateSunFlower(){
@@ -85,8 +90,20 @@ public class GameManage  {
         map.draw(g2d);
         score.draw(g2d);
         scorePlay.draw(g2d);
-        for (Zombies z: arrZombies
-             ) {
+
+
+        for (Potatoes z: arrPotaoes
+        ) {
+            z.draw(g2d);
+        }
+
+        for (RedTree z: arrRedTree
+        ) {
+            z.draw(g2d);
+        }
+
+        for (SunTree z: arrSunTree
+        ) {
             z.draw(g2d);
         }
 
@@ -107,6 +124,10 @@ public class GameManage  {
         }
         for (Bullet b: arrBullet) {
             b.draw(g2d);
+        }
+        for (Zombies z: arrZombies
+        ) {
+            z.draw(g2d);
         }
     }
 
@@ -146,9 +167,14 @@ public class GameManage  {
         generateSunFlower();
     }
     public void AIBullet(){
-        for (int i = arrPlants.size() - 1; i >= 0; i--) {
-            arrPlants.get(i).fire(arrBullet);
+        for (int i = arrPlants.size() - 1; i >= 1; i--) {
+            arrPlants.get(i).fire(arrBullet,0);
         }
+
+        for (int i = arrRedTree.size() - 1; i >= 1; i--) {
+            arrRedTree.get(i).fire(arrBullet,1);
+        }
+
         moveBullet();
     }
 

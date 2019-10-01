@@ -8,14 +8,20 @@ import java.util.ArrayList;
 public class Bullet {
     private int x;
     private int y;
-    private Image image = ImageLoader.getImage("Pea.png",getClass());
+    private int status;
 
-    public Bullet(int x, int y) {
+    private Image[] images;
+
+    public Bullet(int x, int y, int status) {
         this.x = x + 15;
-        this.y = y - image.getHeight(null)/2-10;
+        images = new Image[2];
+        this.status = status;
+        images[0] = ImageLoader.getImage("Pea.png", getClass());
+        images[1] = ImageLoader.getImage("beetbullet.png", getClass());
+        this.y = y - images[status].getHeight(null)/2-10;
     }
     public void draw(Graphics2D g2d){
-        g2d.drawImage(image,x,y,null);
+        g2d.drawImage(images[status],x,y,null);
     }
     public boolean move(){
         x += 2;
@@ -26,7 +32,7 @@ public class Bullet {
     }
 
     public Rectangle getRect(){
-        Rectangle rect = new Rectangle(x,y,image.getWidth(null), image.getHeight(null));
+        Rectangle rect = new Rectangle(x,y,images[status].getWidth(null), images[status].getHeight(null));
         return rect;
     }
 
