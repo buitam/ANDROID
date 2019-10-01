@@ -4,18 +4,20 @@ import com.t3h.gui.ZombieFrame;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class GameManage {
+public class GameManage  {
     public int housePlace = ZombieFrame.W_FRAME/7*2;
     private Map map = new Map();
     private Score score = new Score(40,ZombieFrame.H_FRAME/9*8+20);
+    private Score scorePlay = new Score(40,90);
     private Plants plants;
     private ArrayList<LawnMower> arrLawnMowers;
     private ArrayList<Plants> arrPlants;
     private ArrayList<Zombies> arrZombies;
-    private ArrayList<SunFlower> arrSunFlowers;
+    public ArrayList<SunFlower> arrSunFlowers;
     private ArrayList<Bullet> arrBullet;
     private Random rd = new Random();
     public void initGame(){
@@ -82,6 +84,7 @@ public class GameManage {
     public void draw(Graphics2D g2d){
         map.draw(g2d);
         score.draw(g2d);
+        scorePlay.draw(g2d);
         for (Zombies z: arrZombies
              ) {
             z.draw(g2d);
@@ -115,7 +118,9 @@ public class GameManage {
             arrZombies.get(i).move();
             boolean die = arrZombies.get(i).checkDie(arrBullet);
             if (die) {
+                if(PlantsVsZombies.health < 0){
                 arrZombies.remove(i);
+                }
             }
         }
         if(T-t < 5000) {
@@ -165,4 +170,7 @@ public class GameManage {
         }
         return false;
     }
+
+
+
 }

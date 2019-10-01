@@ -1,19 +1,21 @@
 package com.t3h.gui;
 
-import com.t3h.model.GameManage;
-import com.t3h.model.SunFlower;
-import com.t3h.model.Zombies;
+import com.t3h.model.*;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
 
-public class ZombiePanel extends JPanel implements Runnable{
+public class ZombiePanel extends JPanel implements Runnable, MouseListener, MouseMotionListener {
     private GameManage gameManage = new GameManage();
+    private Map map = new Map();
     public ZombiePanel() {
         setBackground(Color.BLACK);
         gameManage.initGame();
+        addMouseListener(this);
+        addMouseMotionListener(this);
         Thread t = new Thread(this);//this chính là runable(dùng định nghĩa công việc cho thread xử lý)
         t.start();
     }
@@ -50,8 +52,60 @@ public class ZombiePanel extends JPanel implements Runnable{
                 e.printStackTrace();
             }
 
-
         }
+
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+        Rectangle rect = new Rectangle(e.getX()-15, e.getY()-15, 20, 20);
+        for (int i = 0; i <gameManage.arrSunFlowers.size() ; i++) {
+            Rectangle rect1 = gameManage.arrSunFlowers.get(i).getRect()
+                    .intersection(rect);
+            if(!rect1.isEmpty()){
+                Score.score+= 50;
+                gameManage.arrSunFlowers.remove(i);
+            }
+        }
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseDragged(MouseEvent e) {
+        Graphics g = getGraphics();
+        Graphics2D g2d = (Graphics2D) g;
+        for (int i = 0; i < map.plants.length; i++) {
+            if(e.getY()<map.shovel.getHeight(null) && e.getX()>ZombieFrame.W_FRAME/11*10){
+                g2d.clearRect(ZombieFrame.W_FRAME,ZombieFrame.H_FRAME,ZombieFrame.W_FRAME, ZombieFrame.H_FRAME);
+                g2d.drawImage(map.shovel,e.getX(), e.getY(),null);
+            } else if(e.getY()<ZombieFrame.H_FRAME/6*(i+1)-10*(i+1) && e.getX()< map.plants[i].getWidth(null)){
+                g2d.clearRect(ZombieFrame.W_FRAME,ZombieFrame.H_FRAME,ZombieFrame.W_FRAME, ZombieFrame.H_FRAME);
+                g2d.drawImage(map.plants[i],e.getX(), e.getY(),null);}
+//            System.out.println("X: " + e.getX() + "\nY:"+ e.getY());
+        }
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent e) {
 
     }
 }
